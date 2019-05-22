@@ -1,8 +1,8 @@
 global.FormData = require('form-data')
 global.fetch = require('node-fetch')
-global.Headers = fetch.Headers
-global.Request = fetch.Request
-global.Response = fetch.Response
+global.Headers = global.fetch.Headers
+global.Request = global.fetch.Request
+global.Response = global.fetch.Response
 
 if (!global.URL) {
   const url = require('url')
