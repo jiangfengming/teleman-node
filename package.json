@@ -19,22 +19,19 @@
     "url": "https://github.com/kasha-io/teleman-node/issues"
   },
   "homepage": "https://github.com/kasha-io/teleman-node#readme",
+  "dependencies": {
+    "form-data": "^2.3.3",
+    "node-fetch": "^2.6.0",
+    "teleman": "^0.5.4"
+  },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
-    "eslint-config-enough": "^0.3.4"
+    "eslint-config-enough": "^0.3.5"
   },
   "eslintConfig": {
     "extends": "enough",
     "env": {
       "node": true
     }
-  },
-  "dependencies": {
-    "form-data": "^2.3.3",
-    "node-fetch": "^2.6.0"
-  },
-  "peerDependencies": {
-    "teleman": ">= 0.5.3"
   }
 }
