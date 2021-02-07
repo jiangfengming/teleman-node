@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kasha-io/teleman-node.git"
+    "url": "git+https://github.com/jiangfengming/teleman-node.git"
   },
   "keywords": [
     "teleman"
@@ -16,17 +16,19 @@
   "author": "Jiang Fengming",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kasha-io/teleman-node/issues"
+    "url": "https://github.com/jiangfengming/teleman-node/issues"
   },
-  "homepage": "https://github.com/kasha-io/teleman-node#readme",
+  "homepage": "https://github.com/jiangfengming/teleman-node#readme",
+  "peerDependencies": {
+    "teleman": "^0.6.0"
+  },
   "dependencies": {
-    "form-data": "^2.3.3",
-    "node-fetch": "^2.6.0",
-    "teleman": "^0.5.4"
+    "form-data": "^3.0.0",
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-enough": "^0.3.5"
+    "eslint": "^7.19.0",
+    "eslint-config-enough": "^0.7.0"
   },
   "eslintConfig": {
     "extends": "enough",
